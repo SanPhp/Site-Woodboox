@@ -1,0 +1,511 @@
+@font-face
+{
+font-family: EnigmaU_2;
+src: url('fonts/EnigmaU_2.ttf')
+    ,url('fonts/EnigmaU_2.eot'); /* IE9 */
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+	font-size: small;
+	font-family: EnigmaU_2, sans-serif;
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	background: url(../estru/bg4.jpg) no-repeat top center #F5F5F5;
+}
+
+body.demas {
+	background: url(../estru/bg_demas2.jpg) no-repeat top center #F5F5F5;
+}
+
+#all {
+	width: 1000px;
+	height: auto;
+	margin: 0px auto 0px auto;
+}
+
+#all span img[alt="Logo Wood-Box"] {
+	position: relative;
+	top: 5px;
+	left: 40px;
+}
+
+#all nav ul {
+	width: 450px;
+	list-style: none;
+	position: relative;
+	top: -118px;
+	left: 447px;
+}
+
+#all nav ul li {
+	list-style: none;
+	display: inline;
+	margin: 0px 30px 0px 0px;
+}
+
+#all nav ul li a:link {
+	color: #008C20;	
+	font-size: 16px;
+	text-decoration: none;
+}
+
+#all nav ul li a:hover {
+	color: #00A625;
+	text-decoration: none;
+	text-shadow: 1px 0px 20px #00821D;
+	
+}
+
+#all nav ul li a:visited {
+	color: #008C20;
+	text-decoration: none;
+}
+
+#all .qualidade {
+	position: relative;
+	top: 28px;
+	left: 435px;
+}
+
+#all .qualidade a {
+	font-size: 16px;
+}
+
+#all .bloco_notas {
+	width: 1000px;
+	height: 222px;
+	margin: 260px 0px 110px 0px;
+}
+
+#all .bloco {
+	background: url(../estru/bg_notas.jpg) no-repeat top center;
+	width: 190px;
+	height: 260px;
+	float: left;
+	margin: 0px 0px 0px 46px;
+}
+
+.bloco_notas div.bloco h1 {
+	height: 28px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	padding: 5px 0px 0px 0px;
+	text-align: center;
+	font-size: 17px;
+	color: #313140;
+}
+
+.bloco_notas div.bloco p {
+	width: 190px;
+	height: 180px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	text-align: center;
+	padding: 22px 10px 0px 10px;
+	font-size: 16px;
+	color: #016B30;
+	
+}
+
+/* ---- EMPRESA ---- */
+
+section.empresa {
+	width: 912px;
+	margin: 60px auto 0px auto;
+}
+
+div.titulo_empresa {
+	width: 739px;
+	height: 175px;
+	margin: 0px auto 0px auto;
+	background-color: #EEEEEE;
+}
+
+div.titulo_empresa h2 {
+	font-size: 26px;
+	color: #5FC117;
+	box-sizing: border-box;
+	padding: 5px 5px 5px 15px;
+}
+
+div.titulo_empresa p {
+	font-size: 14px;
+	color: #737373;
+	padding: 5px 15px 5px 15px;
+	line-height: 17px;
+	letter-spacing: 1px;
+	text-align: justify;
+}
+
+
+
+div.empresa_politica {
+	width: 739px;
+	height: 175px;
+	background-color: #EEEEEE;
+	margin: 20px auto 0px auto; 
+}
+
+div.empresa_politica h2 {
+	font-size: 26px;
+	color: #5FC117;
+	box-sizing: border-box;
+	padding: 25px 15px 8px 8px;
+	text-align: right;
+}
+
+div.empresa_politica p {
+	font-size: 14px;
+	color: #737373;
+	padding: 5px 15px 5px 15px;
+	line-height: 17px;
+	letter-spacing: 1px;
+	text-align: justify;
+	box-sizing: border-box;
+}
+
+section.empresa span img[alt="Wood Box"]{
+	margin: 10px 0px 0px 77px;
+}
+
+section.empresa span img[alt="Wood-Box"]{
+	margin: 20px 0px 0px 0px;
+}
+
+section.empresa span img[alt="Wood-Box Fachada"]{
+	margin: 20px 0px 0px 76px;
+}
+
+/*div.empresa_valores {
+	width: 555px;
+	height: 109px;
+	margin: -195px 0px 0px 0px;
+	background-color: #EEEEEE;
+	
+}
+
+div.empresa_valores h2 {
+	font-size: 26px;
+	color: #5FC117;
+	box-sizing: border-box;
+	padding: 15px 5px 5px 8px
+}
+
+div.empresa_valores p {
+	font-size: 14px;
+	color: #737373;
+	padding: 5px 15px 5px 8px;
+	line-height: 17px;
+	letter-spacing: 1px;
+	text-align: justify;
+	box-sizing: border-box;
+}*/
+
+/* ---- CONTATO ---- */
+
+/* ---- PRODUDOS ---- */
+
+section.produtos {
+	width: 900px;
+	margin: 100px auto 0px auto;
+}
+
+section.produtos h2 {
+	width: 900px;
+	height: 58px;
+	background-color: #EEEEEE;
+	box-sizing: border-box;
+	font-size: 26px;
+	color: #5FC117;
+	padding: 10px 5px 5px 20px;
+		
+}
+
+section.produtos aside {
+	width: 254px;
+	height: 318px;
+	background: url(../estru/bg_menu_produtos.jpg) no-repeat top center;
+	margin: 20px 0px 110px 0px;
+}
+
+section.produtos aside article {
+	position: relative;
+	top: 40px;
+	left: 20px;
+	margin: 0px 0px 28px 0px;
+}
+
+section.produtos aside article h3 a {
+	color: #737373;
+	font-size: 20px;
+	
+}
+
+section.produtos aside article span a {
+	font-size: 12px;
+	color: #737373;
+}
+
+div.produtos_imagens {
+	width: 620px;
+	height: 318px;
+	float: right;
+	margin: 20px 0px 0px 0px;
+	background-color: #EEEEEE;
+}
+
+div.produtos_imagens p {
+	color: #737373;
+	padding: 0px 0px 10px 22px;
+	box-sizing: border-box;
+}
+
+div.produtos_imagens h4 {
+	font-size: 19px;
+	color: #7F7F7F;
+	padding: 15px 15px 5px 0px;
+	box-sizing: border-box;
+}
+
+div.produtos_imagens h5 {
+	font-size: 19px;
+	color: #7F7F7F;
+	padding: 140px;
+	box-sizing: border-box;
+}
+
+div.produtos_imagens h4:first-letter {
+	font-size: 28px;
+	color: #7F7F7F;
+	padding: 8px 0px 0px 23px;
+}
+
+div.produtos_imagens figure {
+	width: 120px;
+	height: 90px;
+	border: 3px solid #737373;
+	color: #737373;
+	overflow: hidden;	
+	float: left;
+	margin: 10px 0px 0px 23px;
+	text-align: center;
+}
+
+/* ---- CONTATO ---- */
+
+section.contato_titulo {
+	width: 804px;
+	height: 108px;
+	margin: 100px auto 0px auto;
+	background-color: #EEEEEE;
+}
+
+section.contato_titulo h2 {
+	font-size: 26px;
+	color: #5FC117;
+	box-sizing: border-box;
+	padding: 5px 5px 5px 8px;
+}
+
+section.contato_titulo p {
+	font-size: 14px;
+	color: #737373;
+	padding: 5px 15px 5px 8px;
+	line-height: 17px;
+	letter-spacing: 1px;
+}
+
+section.contato_form p.error {
+	text-align: center;
+	color: #737373;	
+	letter-spacing: 1px;
+	margin: 0px 0px -20px 0px;
+}
+
+section.contato_form a {
+	text-align: center;
+	color: #737373;	
+	letter-spacing: 1px;
+	text-decoration: underline;
+}
+
+section.contato_form {
+	width: 804px;
+	height: 295px;
+	background-color: #EEEEEE;
+	margin: 30px auto 0px auto;
+}
+
+section.contato_form [type="text"] {
+	width: 300px;
+	height: 32px;
+	background-color: #DADADA;
+	font-size: 20px;
+	margin: 20px 0px 0px 55px;
+	padding: 0px 0px 0px 10px;
+}
+
+section.contato_form [type="text"]:focus{
+	outline: none;
+	background-color: #CCC;
+}
+
+section.contato_form [type="submit"]:focus {
+	outline: none;
+	background-color: #CCC;
+}
+
+section.contato_form [type="submit"] {
+	width: 158px;
+	height:	 32px;
+	background-color: #DADADA;
+	margin: 0px 0px 0px 54px;
+	font-size: 20px;
+	color: #999999;
+}
+
+section.contato_form [type="submit"]:hover {
+	background-color: #CCC
+}
+
+section.contato_form [type="submit"]:active {
+	box-shadow: inset 1px 0px 5px #333;
+}
+
+section.contato_form textarea {
+	width: 660px;
+	height: 90px;
+	background-color: #DADADA;
+	font-size: 20px;
+	padding: 10px 10px 10px 8px;
+	margin: 18px 0px 0px 55px;
+}
+
+section.contato_form textarea:focus {
+	outline: none;
+	background-color: #CCC;
+}
+
+section.contato_localizacao {
+	width: 804px;
+	height: 139px;
+	margin: 30px auto 110px auto;
+	background-color: #EEEEEE;
+	box-sizing: border-box;
+}
+
+section.contato_localizacao h2 {
+	font-size: 26px;
+	color: #5FC117;
+	box-sizing: border-box;
+	padding: 5px 5px 5px 8px;
+}
+
+section.contato_localizacao p {
+	font-size: 13px;
+	color: #737373;
+	box-sizing: border-box;
+	padding: 5px 5px 5px 8px;
+	width: 320px;
+	letter-spacing: 1px;
+}
+
+section.contato_localizacao span {
+	width: 450px;
+	height: 125px;
+	float: right;
+	margin: -95px 0px 0px 0px;
+}
+
+footer {
+	width: 1000px;
+	height: 183px;
+	margin: 0px auto 0px auto;
+	background: url(../estru/bg_footer.png) no-repeat top center;
+	color: #006B30;
+}
+
+footer span.direitos  {
+	float: right;
+	position: relative;
+	top: 35px;
+	right: 30px;
+	text-align: center;
+	line-height: 30px;
+}
+
+footer span.end_contato {
+	float: left;
+	line-height: 20px;
+	position: relative;
+	top: 45px;
+	left: 30px;
+}
+
+footer span [alt="HRS-Web Desenvolvimento Web"] {
+	position: relative;
+	top: 155px;
+}
+
+section.responsabilidade {
+	width: 900px;
+	margin: 0px 0px 110px 0px;
+	margin: 80px auto 0px auto;
+	background: url(../estru/bg_responsabilidade.png) no-repeat center center;
+}
+
+section.responsabilidade h3 {
+	font-size: 22px;
+	width: 300px;
+	color: #7F7F7F;
+	background-color: #EEEEEE;
+	box-sizing: border-box;
+	padding: 10px 10px 10px 15px;
+	color: #5FC117;
+	margin: 0px 0px 10px 0px;
+	
+
+}
+
+section.responsabilidade h2 {
+	font-size: 22px;
+	width: 380px;
+	color: #7F7F7F;
+	background-color: #EEEEEE;
+	box-sizing: border-box;
+	padding: 10px 15px 10px 10px;
+	color: #5FC117;
+	margin: 10px 0px 10px 0px;	
+}
+
+section.responsabilidade h4 {
+	font-size: 22px;
+	width: 600px;
+	color: #7F7F7F;
+	background-color: #EEEEEE;
+	box-sizing: border-box;
+	padding: 10px 15px 10px 10px;
+	color: #5FC117;
+	margin: 10px 0px 10px 0px;	
+}
+
+section.responsabilidade p {
+	font-size: 20px;
+	padding: 20px;
+	line-height: 30px;
+	background-color: #EEEEEE;
+	color: #7F7F7F;
+	
+}
+
+
